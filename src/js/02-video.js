@@ -1,7 +1,7 @@
-import Player from '@video/player';
+import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
 
-const iframe = document.getElementById('video-player');
+const iframe = document.getElementById('vimeo-player');
 const player = new Player(iframe);
 
 document.addEventListener('DOMContentLoaded', () => {
